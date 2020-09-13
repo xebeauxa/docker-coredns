@@ -1,5 +1,5 @@
 $ORIGIN aurelien.maison.
-@	3600 IN	SOA sns.dns.icann.org. noc.dns.icann.org. (
+@	3600 IN	SOA bastoo.aurelien.maison. aurelien.schutz.03.gmail.com. (
 				2018070500 ; serial
 				7200       ; refresh in seconds (2 hours is 7200)
 				3600       ; retry (1 hour)
@@ -7,11 +7,13 @@ $ORIGIN aurelien.maison.
 				3600       ; minimum (1 hour)
 				)
 
-	3600 IN NS a.iana-servers.net.
-	3600 IN NS b.iana-servers.net.
+	3600 IN NS a.aurelien.maison..
 
+aurelien.maison  IN A     192.168.1.29
 bastoo.aurelien.maison    IN A     192.168.1.29
-graphana.aurelien.maison  IN A     192.168.1.29
+grafana.aurelien.maison    IN A     192.168.1.29
+prometheus.aurelien.maison    IN A     192.168.1.29
+odoo.aurelien.maison    IN A     192.168.1.29
 
 
 ; NOTES:
