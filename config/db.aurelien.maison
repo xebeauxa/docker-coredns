@@ -1,5 +1,5 @@
 $ORIGIN aurelien.maison.
-@	3600 IN	SOA bastoo.aurelien.maison. aurelien.schutz.03.gmail.com. (
+@	3600 IN	SOA 127.18.0.2. aurelien.schutz.03.gmail.com. (
 				2018070500 ; serial
 				7200       ; refresh in seconds (2 hours is 7200)
 				3600       ; retry (1 hour)
@@ -7,13 +7,14 @@ $ORIGIN aurelien.maison.
 				3600       ; minimum (1 hour)
 				)
 
-	3600 IN NS a.aurelien.maison..
+	3600 IN NS  a.aurelien.maison.
 
-aurelien.maison  IN A     192.168.1.29
-bastoo.aurelien.maison    IN A     192.168.1.29
-grafana.aurelien.maison    IN A     192.168.1.29
-prometheus.aurelien.maison    IN A     192.168.1.29
-odoo.aurelien.maison    IN A     192.168.1.29
+www  IN A     127.21.0.6
+a  IN A   127.18.0.2
+bastoo    IN A     127.21.0.9
+grafana    IN A     127.21.0.8
+prometheus    IN A     127.21.0.10
+odoo    IN A     192.168.1.29
 
 
 ; NOTES:
