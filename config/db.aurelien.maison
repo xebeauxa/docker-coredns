@@ -15,6 +15,8 @@ bastoo        IN A     192.168.1.29
 grafana       IN A     192.168.1.29
 prometheus    IN A     192.168.1.29
 odoo          IN A     192.168.1.29
+Coruscant     IN A     192.168.1.47
+Kube3         IN A     192.168.122.228
 
 
 ; NOTES:
